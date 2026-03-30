@@ -12,6 +12,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int choice = 0;
 
+        // while loop looping through each selectoin waits on users input
+        // common set up is while ! the num you are setting up
+        // then an if statment to handle the validation of user input
         while (choice != 5) {
 
             System.out.println("--- MENU ---");
@@ -25,6 +28,8 @@ public class Main {
             choice = sc.nextInt();
             sc.nextLine();
 
+            // nextLine and an if statment
+            // choice is the input and nextline follows it on to the next ... line
             if (choice == 1) {
 
                 System.out.println("Enter Drug ID");
@@ -46,9 +51,12 @@ public class Main {
 
             } else if (choice == 2) {
 
+                // if not choice 1 move to choice2  to and display all drugs
+
                 drugFileIO.displayAllDrugs();
 
             } else if (choice == 3) {
+                // if not choice 2 move to choice 3 to and display patient info
 
                 System.out.println("Enter Patient ID: ");
                 int id = sc.nextInt();
@@ -65,7 +73,7 @@ public class Main {
 
                 Patient writtenPatient = new Patient(id, firstName, lastName, dob);
                 writtenPatientDB.savePatientToDB(writtenPatient);
-
+ // continuing on the same for 4 and 5
             } else if (choice == 4) {
 
                 writtenPatientDB.displayAllPatients();
