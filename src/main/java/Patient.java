@@ -9,7 +9,7 @@ public class Patient {
     private String patientDOB;
 
 
-  public Patient(int patinetId, String patientFirstName, String patientLastName, String patientDOB){
+  public Patient(int patientId, String patientFirstName, String patientLastName, String patientDOB){
     this.patientId = patientId;
     this.patientFirstName = patientFirstName;
     this.patientLastName = patientLastName;
