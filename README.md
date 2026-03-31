@@ -1,4 +1,4 @@
-# QAP 4 – Java Data Persistence
+# QAP 4 Java Data Persistence
 
 A Java program that saves and reads Drug data to a text file and Patient data to a PostgreSQL database through a console menu.
 
