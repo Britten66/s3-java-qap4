@@ -11,13 +11,13 @@ getting PostgreSQL running, Maven configured, and a Java version mismatch sorted
 
 Maven was also out of date and caused some major issues, files got dumped to the wrong folder and created a Test folder to house them in
 
-## Questions
+## Q&A
 
 - Hours spent: around 5 hours
 - Resources used: course lectures, AI assistance for debugging
 - Classmate help: none
 - Instructor help: none
-- Difficulty: 2/5 — confident doing this again
+- Difficulty: 2/5. confident doing this again
 
 # Screenshots
 
